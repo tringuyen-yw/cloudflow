@@ -16,7 +16,7 @@ To create a new cluster, clone the https://github.com/lightbend/cloudflow/[repo]
 
 * GKE: `gcloud init`. This command initializes the gcloud system on your local and performs necessary settings of gcloud credentials. You can have a look at the details in the https://cloud.google.com/sdk/gcloud/reference/init[GKE documentation].
 * EKS: `aws eks --region region update-kubeconfig --name cluster_name`. For more details, refer to the https://aws.amazon.com/premiumsupport/knowledge-center/eks-cluster-connection/[EKS documentation].
-* AKS: `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`. For more detials, refer to the https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough[AKS documentation].
+* AKS: `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`. For more details, refer to the https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough[AKS documentation].
 
 
 NOTE: This can be done once you have a valid account and have access to a project set up for you by the administrator.
